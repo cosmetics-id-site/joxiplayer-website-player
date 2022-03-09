@@ -1,508 +1,681 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <title>JoxiPlayer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Dan Aplikasi Penyedia Lagu Gratis, Download Aplikasi Resmi Di Website By joxiPlayer." />
+    <meta name="keywords" content="joxiplayer, website & aplikasi musik, musik" />
 
-     <title>Hydro - Landing Page Template</title>
-<!-- 
-Hydro Template 
-http://www.templatemo.com/tm-509-hydro
--->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo.jpeg" type="image/x-icon">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/magnific-popup.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/templatemo-style.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSF8HK2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-     <!-- PRE LOADER -->
-     <section class="preloader">
-          <div class="spinner">
-               <span class="spinner-rotate"></span>
-          </div>
-     </section>
+    <!--==================== Notif ====================--
+    <div class="notification notification-alert">
+        <div class="content id notification-alert">
+            Website Dalam Masa Pembuatan <a id="close" style="margin-left: 20px;"> &times;</a>
+        </div>
+        <div class="content en notification-alert">
+            Website Under Construction <a id="close" style="margin-left: 20px;"> &times;</a>
+        </div>
+    </div>
 
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <i class="ri-disc-line nav__logo-icon"></i> joxiPlayer
+            </a>
 
-     <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-          <div class="container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link page-scroll active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link  page-scroll">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link  page-scroll">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link  page-scroll">Contact Us</a>
+                    </li>
 
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
+                    <!--Input-->
+                    <div class="buttons">
+                        <p class="lang" id="id" class="nav__link  page-scroll">
+                            Indonesia
+                        </p>
+                        <p class="lang" id="en" style="margin-left: 15px;" class="nav__link  page-scroll">
+                            English
+                        </p>
+                    </div>
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/phone/phone1.png" alt="" class="home__img" style="width: 300px;">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        <div class="content id">
+                            Apa Itu joxiPlayer?
+                        </div>
+                        <div class="content en">
+                            What is joxiPlayer?
+                        </div>
+                    </h1>
+
+                    <div class="content id home__description">
+                        joxiPlayer Merupakan Aplikasi Yang Saya Buat Untuk Kalian Yang Suka Mendengarkan Lagu.
+                    </div>
+                    <div class="content en home__description">
+                        joxiPlayer is an application that I made for those of you who like to listen to songs.
+                    </div>
+                    <!--Aplikasi--
+                    <a href="joxiPlayer-0_4_debug.apk" class="button button--flex">
+                        <i class="ri-download-2-fill button__icon"></i>
+                        <div class="content id">
+                            Download Aplikasi
+                        </div>
+                        <div class="content en">
+                            Download App
+                        </div>
+                    </a>
+                    <br><br>
+                    <!--Aplikasi-->
+                    <a href="joxiPlayer-0_4_debug.apk">
+                        <div class="content id button button--flex">
+                            <i class="ri-google-fill"></i> Download Apk
+                        </div>
+                    </a>
+                    <a href="joxiPlayer-0_4_debug.apk">
+                        <div class="content en button button--flex">
+                            <i class="ri-google-fill"></i> Download App
+                        </div>
+                    </a>
+                    <!-- partial:index.partial.html -->
+
+                </div>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="https://instagram.com/andrep13_?utm_medium=copy_link" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="assets/img/phone/phone1.png" alt="" class="about__img" style="width: 300px;">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        <div class="content id section__title about__title">
+                            Mengapa joxiPlayer <br> Gratis
+                        </div>
+                        <div class="content en section__title about__title">
+                            Why joxiPlayer <br> Free
+                        </div>
+                    </h2>
+
+                    <p class="about__description">
+                    <div class="content id about__description">
+                        Karena joxiPlayer Di Gunakan Emang Untuk Kalian Yang Suka Mendengarkan Lagu Tanpa Berlangganan
+                    </div>
+                    <div class="content en about__description">
+                        Because joxiPlayer is used for those of you who like to listen to songs without subscribing
+                    </div>
+                    </p>
+
+                    <div class="about__details">
+                        <!-- About 1-->
+                        <div class="content id about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Mendengarkan Lagu
+                        </div>
+                        <div class="content en about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Listen to songs
+                        </div>
+                        <!-- About 2-->
+                        <div class="content id about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Tanpa Perlu Berlangganan
+                        </div>
+                        <div class="content en about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> No Subscription Required
+                        </div>
+                        <!-- About 3-->
+                        <div class="content id about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Tanpa Ada Iklan Pada Aplikasi
+                        </div>
+                        <div class="content en about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> No Ads In App
+                        </div>
+                        <!-- About 3-->
+                        <div class="content id about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Fitur Download Lagu (Segera Hadir)
+                        </div>
+                        <div class="content en about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i> Download Featured Song (Coming Soon)
+                        </div>
+                    </div>
+
+                    <!--Link--
+                        <a href="#" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    <!--Link-->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== STEPS ====================-->
+        <section class="steps section container">
+            <div class="steps__bg">
+                <h2 class="section__title-center steps__title">
+                    <div class="content id section__title-center steps__title">
+                        Langkah-langkah untuk memulai <br> Anda menggunakan aplikasi
+                    </div>
+                    <div class="content en section__title-center steps__title">
+                        Steps to start your <br> using the app
+                    </div>
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">
+                            <div class="content id steps__card-title">
+                                Download Aplikasi
+                            </div>
+                            <div class="content en steps__card-title">
+                                Download App
+                            </div>
+                        </h3>
+                        <p class="steps__card-description">
+                        <div class="content id steps__card-description">
+                            Download Melalui joxiPlayer Site Atau Pada Halaman Ini Tampilan Paling Atas
+                        </div>
+                        <div class="content en steps__card-description">
+                            Download via joxiPlayer Site or on this page top view
+                        </div>
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">
+                            <div class="content id steps__card-title">
+                                Login Google
+                            </div>
+                            <div class="content en steps__card-title">
+                                Sign in Google
+                            </div>
+                        </h3>
+                        <p class="steps__card-description">
+                        <div class="content id steps__card-description">
+                            Setelah Download Login Aplikasi Dengan Account Yang Anda Ingin Gunakan
+                        </div>
+                        <div class="content en steps__card-description">
+                            After Downloading The App Sign In With The Account You Want To Use
+                        </div>
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">
+                            <div class="content id steps__card-title">
+                                Langkah Terakhir
+                            </div>
+                            <div class="content en steps__card-title">
+                                The last step
+                            </div>
+                        </h3>
+                        <p class="steps__card-description">
+                        <div class="content id steps__card-description">
+                            Setelah Di Install Aplikasi Dapat Di Gunakan
+                        </div>
+                        <div class="content en steps__card-description">
+                            Once installed the application can be used
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================--
+        <section class="products section container" id="blog">
+            <h2 class="section__title">
+                Blog
+            </h2>
+
+            <div class="products__container grid">
+                <a href="index.html">
+                <article class="products__card">
+                    <img src="assets/img/product1.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Spirit rose</h3>
+                    <span class="products__price">$1500</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
                     </button>
+                </article>
+            </a>
 
-                    <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">Hydro</a>
-               </div>
+                <article class="products__card">
+                    <img src="assets/img/product2.png" alt="" class="products__img">
 
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="#home" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">About</a></li>
-                         <li><a href="#blog" class="smoothScroll">Blog</a></li>
-                         <li><a href="#work" class="smoothScroll">Our Work</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contacts</a></li>
-                    </ul>
+                    <h3 class="products__title">Khaki pilot</h3>
+                    <span class="products__price">$1350</span>
 
-                    <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in / Join</a></li>
-                    </ul>
-               </div>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
 
-          </div>
-     </section>
+                <article class="products__card">
+                    <img src="assets/img/product3.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Jubilee black</h3>
+                    <span class="products__price">$870</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product4.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Fosil me3</h3>
+                    <span class="products__price">$650</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product5.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Duchen</h3>
+                    <span class="products__price">$950</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+            </div>
+        </section>
 
 
-     <!-- HOME -->
-     <section id="home" data-stellar-background-ratio="0.5">
-          <div class="overlay"></div>
-          <div class="container">
-               <div class="row">
+            <!--==================== QUESTIONS ====================-->
+        <section class="questions section" id="faqs">
+            <h2 class="section__title-center questions__title container">
+                <div class="content id">
+                    Beberapa pertanyaan umum <br> sering ditanyakan
+                </div>
+                <div class="content en">
+                    Some common questions <br> were often asked
+                </div>
+            </h2>
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="home-info">
-                              <h1>We make beautiful websites for all people.</h1>
-                              <a href="#about" class="btn section-btn smoothScroll">Start a project</a>
-                              <span>
-                                   CALL US (+66) 010-020-0340
-                                   <small>For any inquiry</small>
-                              </span>
-                         </div>
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                <div class="content id">
+                                    Lagunya bisa di download?
+                                </div>
+                                <div class="content en">
+                                    Can the song be downloaded?
+                                </div>
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <div class="content id questions__description">
+                                Untuk saat ini joxiPlayer masih belum menyediakan fitur download lagu
+                            </div>
+                            <div class="content en questions__description">
+                                For now, joxiPlayer still doesn't provide a song download feature
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="home-video">
-                              <div class="embed-responsive embed-responsive-16by9">
-                                   <iframe src="https://www.youtube.com/embed/AqcjdkPMPJA" frameborder="0" allowfullscreen></iframe>
-                              </div>
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </section>
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    <div class="content id">
+                                        Apakah bisa dimainkan secara offline?
+                                    </div>
+                                    <div class="content en">
+                                        Can it be played offline?
+                                    </div>
+                                </h3>
+                            </header>
 
+                            <div class="questions__content">
+                                <div class="content id questions__description">
+                                    Tidak bisa, karena menggunakan website yang perlu menggunakan jaringan internet
+                                </div>
+                                <div class="content en questions__description">
+                                    Can't, because it uses a website that needs to use the internet network
+                                </div>
+                            </div>
+                        </div>
 
-     <!-- ABOUT -->
-     <section id="about" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+                        <!--Faq--
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes brown crispy leaves?
+                                </h3>
+                            </header>
 
-                    <div class="col-md-5 col-sm-6">
-                         <div class="about-info">
-                              <div class="section-title">
-                                   <h2>Let us introduce</h2>
-                                   <span class="line-bar">...</span>
-                              </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <div class="about-info skill-thumb">
-
-                              <strong>Web Design</strong>
-                                   <span class="pull-right">85%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-                                        </div>
-
-                              <strong>Photography</strong>
-                                   <span class="pull-right">90%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                        </div>
-
-                              <strong>Content Marketing</strong>
-                                   <span class="pull-right">75%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-
-                              <strong>CMS Admin</strong>
-                                   <span class="pull-right">70%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                                        </div>
-
-                         </div>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-12">
-                         <div class="about-image">
-                              <img src="images/about-image.jpg" class="img-responsive" alt="">
-                         </div>
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do i choose a plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do I change the pots?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Why are gnats flying around my plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+                        <!--Faq-->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        <div class="content id section__title">
+                            Hubungi kami <br> melalui salah satu <br> yang diberikan informasi
+                        </div>
+                        <div class="content en section__title">
+                            Contact us <br> through one of the <br> provided information
+                        </div>
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">
+                                <div class="content id contact__subtitle">
+                                    Hubungi kami untuk dukungan instan
+                                </div>
+                                <div class="content en contact__subtitle">
+                                    Contact us for instant support
+                                </div>
+                            </h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                -
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">
+                                <div class="content id contact__subtitle">
+                                    Tulis kami melalui surat
+                                </div>
+                                <div class="content en contact__subtitle">
+                                    Write us by mail
+                                </div>
+                            </h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                joxiplayer.id@gmail.com
+                            </span>
+                        </div>
                     </div>
-                    
-               </div>
-          </div>
-     </section>
+                </div>
+                <form id="contactForm" class="contact__form">
+                    <div class="alert">Terima Kasih, Telah Mengisi</div>
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input id="email" type="email" placeholder=" " class="contact__input" required>
+                            <label for="email" name="email" class="contact__label">Email</label>
+                        </div>
 
+                        <div class="contact__content">
+                            <input id="subject" type="text" placeholder=" " class="contact__input" required>
+                            <label for="subject" name="subject" class="contact__label">Subject</label>
+                        </div>
 
-     <!-- BLOG -->
-     <section id="blog" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h2>Our Blog</h2>
-                              <span class="line-bar">...</span>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <!-- BLOG THUMB -->
-                         <div class="media blog-thumb">
-                              <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="images/blog-image1.jpg" class="img-responsive" alt=""></a>
-                              </div>
-                              <div class="media-body blog-info">
-                                   <small><i class="fa fa-clock-o"></i> December 22, 2017</small>
-                                   <h3><a href="blog-detail.html">How To Find Out Beautiful Workspace.</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read article</a>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <!-- BLOG THUMB -->
-                         <div class="media blog-thumb">
-                              <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="images/blog-image2.jpg" class="img-responsive" alt=""></a>
-                              </div>
-                              <div class="media-body blog-info">
-                                   <small><i class="fa fa-clock-o"></i> December 18, 2017</small>
-                                   <h3><a href="blog-detail.html">woman sportwear.</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read more</a>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <!-- BLOG THUMB -->
-                         <div class="media blog-thumb">
-                              <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="images/blog-image3.jpg" class="img-responsive" alt=""></a>
-                              </div>
-                              <div class="media-body blog-info">
-                                   <small><i class="fa fa-clock-o"></i> December 14, 2017</small>
-                                   <h3><a href="blog-detail.html">new creative fashion.</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read article</a>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <!-- BLOG THUMB -->
-                         <div class="media blog-thumb">
-                              <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="images/blog-image4.jpg" class="img-responsive" alt=""></a>
-                              </div>
-                              <div class="media-body blog-info">
-                                   <small><i class="fa fa-clock-o"></i> December 10, 2017</small>
-                                   <h3><a href="blog-detail.html">minimalist design trend in 2018.</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">View Detail</a>
-                              </div>
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </section>
-
-
-     <!-- WORK -->
-     <section id="work" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h2>Our work</h2>
-                              <span class="line-bar">...</span>
-                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
-                         <div class="work-thumb">
-                              <a href="images/work-image1.jpg" class="image-popup">
-                                   <img src="images/work-image1.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Clean &amp; Minimal</h3>
-                                        <small>Product Design</small>
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
-                         <div class="work-thumb">
-                              <a href="images/work-image2.jpg" class="image-popup">
-                                   <img src="images/work-image2.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Studio Bag</h3>
-                                        <small>Branding</small>
-                                   </div>
-                              </a>
-                         </div>
+                        <div class="contact__content contact__area">
+                            <textarea id="message" name="message" placeholder=" " class="contact__input"
+                                required></textarea>
+                            <label for="message" name="message" class="contact__label">Message</label>
+                        </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
-                         <div class="work-thumb">
-                              <a href="images/work-image3.jpg" class="image-popup">
-                                   <img src="images/work-image3.jpg" class="img-responsive" alt="Work">
+                    <button class="button button--flex" type="submit">
+                        Send Message
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-                                   <div class="work-info">
-                                        <h3>Frame Design</h3>
-                                        <small>Photography</small>
-                                   </div>
-                              </a>
-                         </div>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="ri-disc-line footer__logo-icon"></i> joxiPlayer
+                </a>
+
+                <h3 class="footer__title">
+                    <div class="content id footer__title">
+                        Berlangganan newsletter kami untuk tetap update
                     </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
-                         <div class="work-thumb">
-                              <a href="images/work-image4.jpg" class="image-popup">
-                                   <img src="images/work-image4.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Paint Work</h3>
-                                        <small>Art, Design</small>
-                                   </div>
-                              </a>
-                         </div>
+                    <div class="content en footer__title">
+                        Subscribe to our newsletter to stay updated
                     </div>
+                </h3>
 
-               </div>
-          </div>
-     </section>
+                <!--Form--
+                <form id="contactForm" class="contact__form">
+                <div class="footer__subscribe">
+                    <input id="email" type="email" placeholder="Enter your email" class="footer__input">
 
-     <!-- CONTACT -->
-     <section id="contact" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+                    <button type="submit" class="button button--flex footer__button">
+                        Subscribe
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+                </div>
+                <!--Form-->
+            </div>
 
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h2>Contact us</h2>
-                              <span class="line-bar">...</span>
-                         </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Indonesia</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Instagram</li>
+
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        </a>
                     </div>
+                </ul>
+            </div>
 
-                    <div class="col-md-8 col-sm-8">
-                        
-                         <!-- CONTACT FORM HERE -->
-                         <form id="contact-form" role="form" action="#" method="post">
-                              <div class="col-md-6 col-sm-6">
-                                   <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
-                              </div>
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Download Sekarang Di
+                </h3>
 
-                              <div class="col-md-6 col-sm-6">
-                                   <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
-                              </div>
+                <div class="footer__cards">
+                    <!--card-->
+                    <a href="joxiPlayer-0_4_debug.apk" class="footer__card">
+                        <img src="assets/img/google.png" alt="" class="footer__card">
+                    </a>
+                    <!--card-->
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">&#169;2021 joxiPlayer. All rigths reserved</p>
+    </footer>
 
-                              <div class="col-md-6 col-sm-6">
-                                   <input type="tel" class="form-control" placeholder="Your Phone" id="cf-number" name="cf-number" required="">
-                              </div>
-
-                              <div class="col-md-6 col-sm-6">
-                                   <select class="form-control" id="cf-budgets" name="cf-budgets">
-                                        <option>Budget Level</option>
-                                        <option>$500 to $1,000</option>
-                                        <option>$1,000 to $2,200</option>
-                                        <option>$2,200 to $4,500</option>
-                                        <option>$4,500 to $7,500</option>
-                                        <option>$7,500 to $12,000</option>
-                                        <option>$12,000 or more</option>
-                                   </select>
-                              </div>
-
-                              <div class="col-md-12 col-sm-12">
-                                   <textarea class="form-control" rows="6" placeholder="Your requirements" id="cf-message" name="cf-message" required=""></textarea>
-                              </div>
-
-                              <div class="col-md-4 col-sm-12">
-                                   <input type="submit" class="form-control" name="submit" value="Send Message">
-                              </div>
-
-                         </form>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="google-map">
-	<!-- How to change your own map point
-            1. Go to Google Maps
-            2. Click on your location point
-            3. Click "Share" and choose "Embed map" tab
-            4. Copy only URL and paste it within the src="" field below
-	-->
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
+    <!--Update Apk--
+    <div class="toast-container">
+        <div class="image">
+          <img src="assets/img/logo.jpeg" alt="" style="width: 100px; border-radius: 24px;"/>
+        </div>
+  
+        <div class="text-content">
+          <h3>
+            New Version Aplikasi 0.4 Update Now <a href="https://ncdn2.swing2app.co.kr/public/APK/6327969/joxiPlayer-0_4_debug.apk">here</a>
+          </h3>
+          <p class="author-name">joxiPlayer</p>
+        </div>
+  
+        <div class="close">
+            <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <!--Update Apk-->
 
 
-     <!-- FOOTER -->
-     <footer data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+    <div class="notif peek">
+        <!--hides after a few seconds-->
+        <div class="content id">
+            Website Dalam Masa Pembuatan
+        </div>
+        <div class="content en">
+            Website Under Construction
+        </div>
+    </div>
 
-                    <div class="col-md-5 col-sm-12">
-                         <div class="footer-thumb footer-info"> 
-                              <h2>Hydro Company</h2>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                         </div>
-                    </div>
+    <!--=============== Firebase ===============-->
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="assets/js/firebase.js"></script>
 
-                    <div class="col-md-2 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h2>Company</h2>
-                              <ul class="footer-link">
-                                   <li><a href="#">About Us</a></li>
-                                   <li><a href="#">Join our team</a></li>
-                                   <li><a href="#">Read Blog</a></li>
-                                   <li><a href="#">Press</a></li>
-                              </ul>
-                         </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h2>Services</h2>
-                              <ul class="footer-link">
-                                   <li><a href="#">Pricing</a></li>
-                                   <li><a href="#">Documentation</a></li>
-                                   <li><a href="#">Support</a></li>
-                              </ul>
-                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h2>Find us</h2>
-                              <p>123 Grand Rama IX, <br> Krung Thep Maha Nakhon 10400</p>
-                         </div>
-                    </div>                    
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="footer-bottom">
-                              <div class="col-md-6 col-sm-5">
-                                   <div class="copyright-text"> 
-                                        <p>Copyright &copy; 2017 Your Company</p>
-                                   </div>
-                              </div>
-                              <div class="col-md-6 col-sm-7">
-                                   <div class="phone-contact"> 
-                                        <p>Call us <span>(+66) 010-020-0340</span></p>
-                                   </div>
-                                   <ul class="social-icon">
-                                        <li><a href="https://www.facebook.com/templatemo" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 
 
-     <!-- MODAL -->
-     <section class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-               <div class="modal-content modal-popup">
-
-                    <div class="modal-header">
-                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                         </button>
-                    </div>
-
-                    <div class="modal-body">
-                         <div class="container-fluid">
-                              <div class="row">
-
-                                   <div class="col-md-12 col-sm-12">
-                                        <div class="modal-title">
-                                             <h2>Hydro Co</h2>
-                                        </div>
-
-                                        <!-- NAV TABS -->
-                                        <ul class="nav nav-tabs" role="tablist">
-                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Create an account</a></li>
-                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign In</a></li>
-                                        </ul>
-
-                                        <!-- TAB PANES -->
-                                        <div class="tab-content">
-                                             <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
-                                                  <form action="#" method="post">
-                                                       <input type="text" class="form-control" name="name" placeholder="Name" required>
-                                                       <input type="telephone" class="form-control" name="telephone" placeholder="Telephone" required>
-                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
-                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
-                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
-                                                  </form>
-                                             </div>
-
-                                             <div role="tabpanel" class="tab-pane fade in" id="sign_in">
-                                                  <form action="#" method="post">
-                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
-                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
-                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
-                                                       <a href="https://www.facebook.com/templatemo">Forgot your password?</a>
-                                                  </form>
-                                             </div>
-                                        </div>
-                                   </div>
-
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->
+    <script src="assets/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="assets/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="assets/js/scripts.js"></script> <!-- Custom scripts -->
 
 </body>
+
 </html>
